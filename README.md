@@ -16,7 +16,7 @@ pip install -r requirements.txt
  ```
 ### Secondly, Data Preparation   
 In this step, we need to prepare the data for further processing and analysis.
-```bash
+```
 We will organize our data using the following structure:
 
 - `./dataset/PD_GT`: Location to store the severity Ground Truth data.
