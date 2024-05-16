@@ -78,4 +78,7 @@ trainer.fit(model, train, val)
 trainer.test(test_dataloaders=test)
 ```
 
-<a href="https://github.com/littlepure2333/2s_st-gcn.git" target="_blank" rel="noopener">littlepure2333</a>
+## Two stream ST_GCN
+
+This project is based on the work of [littlepure2333](https://github.com/littlepure2333). You can find the original repository [here](https://github.com/littlepure2333/2s_st-gcn.git).
+
