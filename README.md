@@ -77,6 +77,16 @@ trainer.fit(model, train, val)
 # test using the best model!
 trainer.test(test_dataloaders=test)
 ```
+## Dataset
+
+This project utilizes a proprietary dataset, access to which is not publicly available. For inquiries regarding dataset access, please contact Professor Pahsiung (pahsiung@ccu.edu.tw) for further information.
+
+### Video Introduction:
+The dataset comprises a total of 65 videos depicting individuals performing repetitive foot movements while seated in a chair. The estimated age range of the individuals is from 20 to 70 years old. Each video has a duration ranging from 32 to 38 seconds, with a frame rate of 30 frames per second.
+
+### Body Skeleton Data:
+The dataset includes a total of 44 complete skeleton joint coordinates extracted from all videos. These coordinates consist of the standard OpenPose 25 joints along with additional joints for the fingers and palms. However, for the purposes of this project, which focuses on analyzing agility through skeleton analysis, the skeleton joints (1 to 25) are decomposed to retain only the lower limb positions, specifically joints 8 to 14. These retained joints consist of 7 key points (x, y, c), representing the x and y coordinates along with detection confidence. Notably, joints related to the fingers and palms will not be utilized in this project.
+
 
 ## Two stream ST_GCN
 
