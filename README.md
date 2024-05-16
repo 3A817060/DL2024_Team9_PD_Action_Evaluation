@@ -19,9 +19,9 @@ In this step, we need to prepare the data for further processing and analysis.
 ```
 We will organize our data using the following structure:
 
-- `./dataset/PD_GT`: Location to store the severity Ground Truth data.
-- `./dataset/Skeleton`: Location for the skeleton coordinates of each video.
-- `./Video`: Location for all the videos.
+- **[./dataset/PD_GT]**: Location to store the severity Ground Truth data.
+- **[./dataset/Skeleton]**: Location for the skeleton coordinates of each video.
+- **[./Video]**: Location for all the videos.
  ```   
  ### Finally, training   
  To train a new model or reproduce experiment results, run 
