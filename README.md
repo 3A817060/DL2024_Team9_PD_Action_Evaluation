@@ -5,7 +5,7 @@ Utilize patient image data to predict the severity level of Parkinson's Disease.
 This project aims to address the problem of quantifying the behavior of Parkinson's Disease patients through a series of tests and observations to assess the severity of Parkinson's Disease. The main action in the experiment is **Leg Agility**, which quantifies the movement of the thigh stepping by utilizing existing Deep Learning models for training and evaluation. The model optimizes its weights by learning the temporal and spatial features of the human skeleton.
 
 ## How to run   
-### First, install dependencies   
+### Install Dependencies   
 ```bash
 # clone project   
 git clone https://github.com/3A817060/DL2024_Team9_PD_Action_Evaluation.git
@@ -14,7 +14,7 @@ git clone https://github.com/3A817060/DL2024_Team9_PD_Action_Evaluation.git
 cd DL2024_Team9_PD_Action_Evaluation
 pip install -r requirements.txt
  ```
-### Secondly, Data Preparation   
+### Data Preparation   
 In this step, we need to prepare the data for further processing and analysis.
 ```
 We will organize our data using the following structure:
@@ -23,13 +23,13 @@ We will organize our data using the following structure:
 - [./dataset/Skeleton]: Location for the skeleton coordinates of each video.
 - [./Video]: Location for all the videos.
  ```   
- ### Finally, training   
+ ### Training PD_STGCN
  To train a new model or reproduce experiment results, run 
  ```python
 python main.py recognition -c config/st_gcn.twostream/train.yaml [--work_dir <work folder>]
 ```
-The training results, including model weights, configurations and loggiing files, will be saved under the `""./work_dir""` by default or `""<work folder>""` if you appoint it.
-You can modify the training parameters such as `""work_dir""`, `""batch_size""`, `""step""`, `""base_lr""` and `""device""` in the command line or configuration files. The order of priority is: command line > config file > default parameter.
+The training results, including model weights, configurations and loggiing files, will be saved under the `./work_dir` by default or `<work folder>` if you appoint it.
+You can modify the training parameters such as `work_dir`, `batch_size`, `step`, `base_lr` and `device` in the command line or configuration files. The order of priority is: command line > config file > default parameter.
 
 ## Dataset Description
 
