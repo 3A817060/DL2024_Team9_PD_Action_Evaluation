@@ -1,0 +1,3184 @@
+[05.26.24|21:53:21] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|21:56:26] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|21:56:26] Training epoch: 0
+[05.26.24|21:56:26] 	Iter 0 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 1
+[05.26.24|21:56:26] 	Iter 100 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 2
+[05.26.24|21:56:26] 	Iter 200 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 3
+[05.26.24|21:56:26] 	Iter 300 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 4
+[05.26.24|21:56:26] 	Iter 400 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Eval epoch: 4
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 5
+[05.26.24|21:56:26] 	Iter 500 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 6
+[05.26.24|21:56:26] 	Iter 600 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 7
+[05.26.24|21:56:26] 	Iter 700 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 8
+[05.26.24|21:56:26] 	Iter 800 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 9
+[05.26.24|21:56:26] 	Iter 900 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] The model has been saved as ./work_dir/log/epoch10_model.pt.
+[05.26.24|21:56:26] Eval epoch: 9
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 10
+[05.26.24|21:56:26] 	Iter 1000 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 11
+[05.26.24|21:56:26] 	Iter 1100 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 12
+[05.26.24|21:56:26] 	Iter 1200 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 13
+[05.26.24|21:56:26] 	Iter 1300 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 14
+[05.26.24|21:56:26] 	Iter 1400 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Eval epoch: 14
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 15
+[05.26.24|21:56:26] 	Iter 1500 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 16
+[05.26.24|21:56:26] 	Iter 1600 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 17
+[05.26.24|21:56:26] 	Iter 1700 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 18
+[05.26.24|21:56:26] 	Iter 1800 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 19
+[05.26.24|21:56:26] 	Iter 1900 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] The model has been saved as ./work_dir/log/epoch20_model.pt.
+[05.26.24|21:56:26] Eval epoch: 19
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 20
+[05.26.24|21:56:26] 	Iter 2000 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 21
+[05.26.24|21:56:26] 	Iter 2100 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 22
+[05.26.24|21:56:26] 	Iter 2200 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 23
+[05.26.24|21:56:26] 	Iter 2300 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 24
+[05.26.24|21:56:26] 	Iter 2400 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Eval epoch: 24
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 25
+[05.26.24|21:56:26] 	Iter 2500 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 26
+[05.26.24|21:56:26] 	Iter 2600 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 27
+[05.26.24|21:56:26] 	Iter 2700 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 28
+[05.26.24|21:56:26] 	Iter 2800 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 29
+[05.26.24|21:56:26] 	Iter 2900 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] The model has been saved as ./work_dir/log/epoch30_model.pt.
+[05.26.24|21:56:26] Eval epoch: 29
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 30
+[05.26.24|21:56:26] 	Iter 3000 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 31
+[05.26.24|21:56:26] 	Iter 3100 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 32
+[05.26.24|21:56:26] 	Iter 3200 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 33
+[05.26.24|21:56:26] 	Iter 3300 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 34
+[05.26.24|21:56:26] 	Iter 3400 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Eval epoch: 34
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 35
+[05.26.24|21:56:26] 	Iter 3500 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 36
+[05.26.24|21:56:26] 	Iter 3600 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 37
+[05.26.24|21:56:26] 	Iter 3700 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 38
+[05.26.24|21:56:26] 	Iter 3800 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 39
+[05.26.24|21:56:26] 	Iter 3900 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] The model has been saved as ./work_dir/log/epoch40_model.pt.
+[05.26.24|21:56:26] Eval epoch: 39
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 40
+[05.26.24|21:56:26] 	Iter 4000 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 41
+[05.26.24|21:56:26] 	Iter 4100 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 42
+[05.26.24|21:56:26] 	Iter 4200 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 43
+[05.26.24|21:56:26] 	Iter 4300 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 44
+[05.26.24|21:56:26] 	Iter 4400 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Eval epoch: 44
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 45
+[05.26.24|21:56:26] 	Iter 4500 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 46
+[05.26.24|21:56:26] 	Iter 4600 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 47
+[05.26.24|21:56:26] 	Iter 4700 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 48
+[05.26.24|21:56:26] 	Iter 4800 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 49
+[05.26.24|21:56:26] 	Iter 4900 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] The model has been saved as ./work_dir/log/epoch50_model.pt.
+[05.26.24|21:56:26] Eval epoch: 49
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 50
+[05.26.24|21:56:26] 	Iter 5000 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 51
+[05.26.24|21:56:26] 	Iter 5100 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 52
+[05.26.24|21:56:26] 	Iter 5200 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 53
+[05.26.24|21:56:26] 	Iter 5300 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 54
+[05.26.24|21:56:26] 	Iter 5400 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Eval epoch: 54
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 55
+[05.26.24|21:56:26] 	Iter 5500 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 56
+[05.26.24|21:56:26] 	Iter 5600 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 57
+[05.26.24|21:56:26] 	Iter 5700 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 58
+[05.26.24|21:56:26] 	Iter 5800 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 59
+[05.26.24|21:56:26] 	Iter 5900 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] The model has been saved as ./work_dir/log/epoch60_model.pt.
+[05.26.24|21:56:26] Eval epoch: 59
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 60
+[05.26.24|21:56:26] 	Iter 6000 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 61
+[05.26.24|21:56:26] 	Iter 6100 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 62
+[05.26.24|21:56:26] 	Iter 6200 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 63
+[05.26.24|21:56:26] 	Iter 6300 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 64
+[05.26.24|21:56:26] 	Iter 6400 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Eval epoch: 64
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 65
+[05.26.24|21:56:26] 	Iter 6500 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 66
+[05.26.24|21:56:26] 	Iter 6600 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 67
+[05.26.24|21:56:26] 	Iter 6700 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 68
+[05.26.24|21:56:26] 	Iter 6800 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 69
+[05.26.24|21:56:26] 	Iter 6900 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] The model has been saved as ./work_dir/log/epoch70_model.pt.
+[05.26.24|21:56:26] Eval epoch: 69
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 70
+[05.26.24|21:56:26] 	Iter 7000 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 71
+[05.26.24|21:56:26] 	Iter 7100 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 72
+[05.26.24|21:56:26] 	Iter 7200 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 73
+[05.26.24|21:56:26] 	Iter 7300 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 74
+[05.26.24|21:56:26] 	Iter 7400 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Eval epoch: 74
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 75
+[05.26.24|21:56:26] 	Iter 7500 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 76
+[05.26.24|21:56:26] 	Iter 7600 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 77
+[05.26.24|21:56:26] 	Iter 7700 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 78
+[05.26.24|21:56:26] 	Iter 7800 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] Training epoch: 79
+[05.26.24|21:56:26] 	Iter 7900 Done. | loss: 0
+[05.26.24|21:56:26] 	mean loss: 0
+[05.26.24|21:56:26] Done.
+[05.26.24|21:56:26] The model has been saved as ./work_dir/log/epoch80_model.pt.
+[05.26.24|21:56:26] Eval epoch: 79
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	Iter 8000 Done. | loss: 1
+[05.26.24|21:56:26] 	mean loss: 1
+[05.26.24|21:56:26] Done.
+[05.26.24|22:09:25] Load weights from /media/dsp520/Grasp_2T/parkinson/st-gcn/work_dir/log/epoch80_model.pt.
+[05.26.24|22:09:25] Load weights [A].
+[05.26.24|22:09:25] Load weights [data_bn.weight].
+[05.26.24|22:09:25] Load weights [data_bn.bias].
+[05.26.24|22:09:25] Load weights [data_bn.running_mean].
+[05.26.24|22:09:25] Load weights [data_bn.running_var].
+[05.26.24|22:09:25] Load weights [data_bn.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.gcn.conv.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.gcn.conv.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.tcn.0.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.tcn.0.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.tcn.0.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.tcn.0.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.tcn.0.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.tcn.2.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.tcn.2.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.tcn.3.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.tcn.3.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.tcn.3.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.tcn.3.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.0.tcn.3.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.gcn.conv.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.gcn.conv.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.tcn.0.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.tcn.0.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.tcn.0.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.tcn.0.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.tcn.0.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.tcn.2.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.tcn.2.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.tcn.3.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.tcn.3.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.tcn.3.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.tcn.3.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.1.tcn.3.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.gcn.conv.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.gcn.conv.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.tcn.0.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.tcn.0.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.tcn.0.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.tcn.0.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.tcn.0.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.tcn.2.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.tcn.2.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.tcn.3.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.tcn.3.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.tcn.3.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.tcn.3.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.2.tcn.3.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.gcn.conv.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.gcn.conv.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.tcn.0.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.tcn.0.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.tcn.0.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.tcn.0.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.tcn.0.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.tcn.2.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.tcn.2.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.tcn.3.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.tcn.3.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.tcn.3.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.tcn.3.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.3.tcn.3.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.gcn.conv.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.gcn.conv.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.tcn.0.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.tcn.0.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.tcn.0.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.tcn.0.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.tcn.0.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.tcn.2.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.tcn.2.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.tcn.3.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.tcn.3.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.tcn.3.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.tcn.3.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.tcn.3.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.residual.0.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.residual.0.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.residual.1.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.residual.1.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.residual.1.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.residual.1.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.4.residual.1.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.gcn.conv.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.gcn.conv.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.tcn.0.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.tcn.0.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.tcn.0.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.tcn.0.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.tcn.0.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.tcn.2.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.tcn.2.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.tcn.3.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.tcn.3.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.tcn.3.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.tcn.3.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.5.tcn.3.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.gcn.conv.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.gcn.conv.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.tcn.0.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.tcn.0.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.tcn.0.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.tcn.0.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.tcn.0.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.tcn.2.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.tcn.2.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.tcn.3.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.tcn.3.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.tcn.3.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.tcn.3.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.6.tcn.3.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.gcn.conv.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.gcn.conv.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.tcn.0.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.tcn.0.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.tcn.0.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.tcn.0.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.tcn.0.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.tcn.2.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.tcn.2.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.tcn.3.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.tcn.3.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.tcn.3.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.tcn.3.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.tcn.3.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.residual.0.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.residual.0.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.residual.1.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.residual.1.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.residual.1.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.residual.1.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.7.residual.1.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.gcn.conv.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.gcn.conv.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.tcn.0.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.tcn.0.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.tcn.0.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.tcn.0.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.tcn.0.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.tcn.2.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.tcn.2.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.tcn.3.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.tcn.3.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.tcn.3.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.tcn.3.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.8.tcn.3.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.gcn.conv.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.gcn.conv.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.tcn.0.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.tcn.0.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.tcn.0.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.tcn.0.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.tcn.0.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.tcn.2.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.tcn.2.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.tcn.3.weight].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.tcn.3.bias].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.tcn.3.running_mean].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.tcn.3.running_var].
+[05.26.24|22:09:25] Load weights [st_gcn_networks.9.tcn.3.num_batches_tracked].
+[05.26.24|22:09:25] Load weights [edge_importance.0].
+[05.26.24|22:09:25] Load weights [edge_importance.1].
+[05.26.24|22:09:25] Load weights [edge_importance.2].
+[05.26.24|22:09:25] Load weights [edge_importance.3].
+[05.26.24|22:09:25] Load weights [edge_importance.4].
+[05.26.24|22:09:25] Load weights [edge_importance.5].
+[05.26.24|22:09:25] Load weights [edge_importance.6].
+[05.26.24|22:09:25] Load weights [edge_importance.7].
+[05.26.24|22:09:25] Load weights [edge_importance.8].
+[05.26.24|22:09:25] Load weights [edge_importance.9].
+[05.26.24|22:09:25] Load weights [fcn.weight].
+[05.26.24|22:09:25] Load weights [fcn.bias].
+[05.26.24|22:09:25] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg_test.yaml', 'phase': 'test', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': '/media/dsp520/Grasp_2T/parkinson/st-gcn/work_dir/log/epoch80_model.pt', 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|22:09:25] Model:   net.st_gcn.Model.
+[05.26.24|22:09:25] Weights: /media/dsp520/Grasp_2T/parkinson/st-gcn/work_dir/log/epoch80_model.pt.
+[05.26.24|22:09:25] Evaluation Start:
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	Iter 0 Done. | loss: 1
+[05.26.24|22:09:25] 	mean loss: 1
+[05.26.24|22:09:25] Done.
+
+[05.26.24|22:41:33] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|22:41:33] Training epoch: 0
+[05.26.24|22:45:06] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|22:47:04] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|22:47:04] Training epoch: 0
+[05.26.24|22:49:34] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|22:49:34] Training epoch: 0
+[05.26.24|22:52:04] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|22:52:04] Training epoch: 0
+[05.26.24|22:53:06] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|22:53:06] Training epoch: 0
+[05.26.24|22:53:25] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|22:53:25] Training epoch: 0
+[05.26.24|22:53:45] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|22:53:45] Training epoch: 0
+[05.26.24|22:55:04] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|22:55:04] Training epoch: 0
+[05.26.24|23:15:56] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:15:56] Training epoch: 0
+[05.26.24|23:17:27] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:17:27] Training epoch: 0
+[05.26.24|23:18:19] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:18:19] Training epoch: 0
+[05.26.24|23:18:43] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:18:43] Training epoch: 0
+[05.26.24|23:23:05] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:23:05] Training epoch: 0
+[05.26.24|23:23:18] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:23:18] Training epoch: 0
+[05.26.24|23:26:53] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:26:53] Training epoch: 0
+[05.26.24|23:29:35] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:29:35] Training epoch: 0
+[05.26.24|23:30:07] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:30:07] Training epoch: 0
+[05.26.24|23:30:08] Done.
+[05.26.24|23:30:08] Training epoch: 1
+[05.26.24|23:30:08] Done.
+[05.26.24|23:30:08] Training epoch: 2
+[05.26.24|23:30:09] Done.
+[05.26.24|23:30:09] Training epoch: 3
+[05.26.24|23:30:10] Done.
+[05.26.24|23:30:10] Training epoch: 4
+[05.26.24|23:30:10] Done.
+[05.26.24|23:30:10] Eval epoch: 4
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	Iter 0 Done. | loss: 1
+[05.26.24|23:30:10] 	mean loss: 1
+[05.26.24|23:31:14] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:31:14] Training epoch: 0
+[05.26.24|23:31:14] Done.
+[05.26.24|23:31:14] Training epoch: 1
+[05.26.24|23:31:15] Done.
+[05.26.24|23:31:15] Training epoch: 2
+[05.26.24|23:31:15] Done.
+[05.26.24|23:31:15] Training epoch: 3
+[05.26.24|23:31:16] Done.
+[05.26.24|23:31:16] Training epoch: 4
+[05.26.24|23:31:16] Done.
+[05.26.24|23:31:16] Eval epoch: 4
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	Iter 0 Done. | loss: 1
+[05.26.24|23:31:16] 	mean loss: 1
+[05.26.24|23:41:49] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:41:49] Training epoch: 0
+[05.26.24|23:41:49] Done.
+[05.26.24|23:41:49] Training epoch: 1
+[05.26.24|23:41:50] Done.
+[05.26.24|23:41:50] Training epoch: 2
+[05.26.24|23:41:50] Done.
+[05.26.24|23:41:50] Training epoch: 3
+[05.26.24|23:41:51] Done.
+[05.26.24|23:41:51] Training epoch: 4
+[05.26.24|23:41:51] Done.
+[05.26.24|23:41:51] Eval epoch: 4
+[05.26.24|23:44:04] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:44:04] Training epoch: 0
+[05.26.24|23:44:05] Done.
+[05.26.24|23:44:05] Training epoch: 1
+[05.26.24|23:44:05] Done.
+[05.26.24|23:44:05] Training epoch: 2
+[05.26.24|23:44:06] Done.
+[05.26.24|23:44:06] Training epoch: 3
+[05.26.24|23:44:06] Done.
+[05.26.24|23:44:06] Training epoch: 4
+[05.26.24|23:44:07] Done.
+[05.26.24|23:44:07] Eval epoch: 4
+[05.26.24|23:44:07] Done.
+[05.26.24|23:44:07] Training epoch: 5
+[05.26.24|23:44:07] Done.
+[05.26.24|23:44:07] Training epoch: 6
+[05.26.24|23:44:08] Done.
+[05.26.24|23:44:08] Training epoch: 7
+[05.26.24|23:44:09] Done.
+[05.26.24|23:44:09] Training epoch: 8
+[05.26.24|23:44:09] Done.
+[05.26.24|23:44:09] Training epoch: 9
+[05.26.24|23:44:10] Done.
+[05.26.24|23:44:10] The model has been saved as ./work_dir/log/epoch10_model.pt.
+[05.26.24|23:44:10] Eval epoch: 9
+[05.26.24|23:44:10] Done.
+[05.26.24|23:44:10] Training epoch: 10
+[05.26.24|23:44:10] Done.
+[05.26.24|23:44:10] Training epoch: 11
+[05.26.24|23:44:11] Done.
+[05.26.24|23:44:11] Training epoch: 12
+[05.26.24|23:44:11] Done.
+[05.26.24|23:44:11] Training epoch: 13
+[05.26.24|23:44:12] Done.
+[05.26.24|23:44:12] Training epoch: 14
+[05.26.24|23:44:12] Done.
+[05.26.24|23:44:12] Eval epoch: 14
+[05.26.24|23:44:13] Done.
+[05.26.24|23:44:13] Training epoch: 15
+[05.26.24|23:44:13] Done.
+[05.26.24|23:44:13] Training epoch: 16
+[05.26.24|23:44:14] Done.
+[05.26.24|23:44:14] Training epoch: 17
+[05.26.24|23:44:14] Done.
+[05.26.24|23:44:14] Training epoch: 18
+[05.26.24|23:44:15] Done.
+[05.26.24|23:44:15] Training epoch: 19
+[05.26.24|23:44:15] Done.
+[05.26.24|23:44:15] The model has been saved as ./work_dir/log/epoch20_model.pt.
+[05.26.24|23:44:15] Eval epoch: 19
+[05.26.24|23:44:16] Done.
+[05.26.24|23:44:16] Training epoch: 20
+[05.26.24|23:44:16] Done.
+[05.26.24|23:44:16] Training epoch: 21
+[05.26.24|23:44:17] Done.
+[05.26.24|23:44:17] Training epoch: 22
+[05.26.24|23:44:17] Done.
+[05.26.24|23:44:17] Training epoch: 23
+[05.26.24|23:44:18] Done.
+[05.26.24|23:44:18] Training epoch: 24
+[05.26.24|23:44:18] Done.
+[05.26.24|23:44:18] Eval epoch: 24
+[05.26.24|23:44:18] Done.
+[05.26.24|23:44:18] Training epoch: 25
+[05.26.24|23:44:19] Done.
+[05.26.24|23:44:19] Training epoch: 26
+[05.26.24|23:44:19] Done.
+[05.26.24|23:44:19] Training epoch: 27
+[05.26.24|23:44:20] Done.
+[05.26.24|23:44:20] Training epoch: 28
+[05.26.24|23:44:20] Done.
+[05.26.24|23:44:20] Training epoch: 29
+[05.26.24|23:44:21] Done.
+[05.26.24|23:44:21] The model has been saved as ./work_dir/log/epoch30_model.pt.
+[05.26.24|23:44:21] Eval epoch: 29
+[05.26.24|23:44:21] Done.
+[05.26.24|23:44:21] Training epoch: 30
+[05.26.24|23:44:22] Done.
+[05.26.24|23:44:22] Training epoch: 31
+[05.26.24|23:44:22] Done.
+[05.26.24|23:44:22] Training epoch: 32
+[05.26.24|23:44:23] Done.
+[05.26.24|23:44:23] Training epoch: 33
+[05.26.24|23:44:23] Done.
+[05.26.24|23:44:23] Training epoch: 34
+[05.26.24|23:44:24] Done.
+[05.26.24|23:44:24] Eval epoch: 34
+[05.26.24|23:44:24] Done.
+[05.26.24|23:44:24] Training epoch: 35
+[05.26.24|23:44:25] Done.
+[05.26.24|23:44:25] Training epoch: 36
+[05.26.24|23:44:25] Done.
+[05.26.24|23:44:25] Training epoch: 37
+[05.26.24|23:44:26] Done.
+[05.26.24|23:44:26] Training epoch: 38
+[05.26.24|23:44:26] Done.
+[05.26.24|23:44:26] Training epoch: 39
+[05.26.24|23:44:27] Done.
+[05.26.24|23:44:27] The model has been saved as ./work_dir/log/epoch40_model.pt.
+[05.26.24|23:44:27] Eval epoch: 39
+[05.26.24|23:44:27] Done.
+[05.26.24|23:44:27] Training epoch: 40
+[05.26.24|23:44:28] Done.
+[05.26.24|23:44:28] Training epoch: 41
+[05.26.24|23:44:28] Done.
+[05.26.24|23:44:28] Training epoch: 42
+[05.26.24|23:44:29] Done.
+[05.26.24|23:44:29] Training epoch: 43
+[05.26.24|23:44:29] Done.
+[05.26.24|23:44:29] Training epoch: 44
+[05.26.24|23:44:30] Done.
+[05.26.24|23:44:30] Eval epoch: 44
+[05.26.24|23:44:30] Done.
+[05.26.24|23:44:30] Training epoch: 45
+[05.26.24|23:44:30] Done.
+[05.26.24|23:44:30] Training epoch: 46
+[05.26.24|23:44:31] Done.
+[05.26.24|23:44:31] Training epoch: 47
+[05.26.24|23:44:31] Done.
+[05.26.24|23:44:31] Training epoch: 48
+[05.26.24|23:44:32] Done.
+[05.26.24|23:44:32] Training epoch: 49
+[05.26.24|23:44:33] Done.
+[05.26.24|23:44:33] The model has been saved as ./work_dir/log/epoch50_model.pt.
+[05.26.24|23:44:33] Eval epoch: 49
+[05.26.24|23:44:33] Done.
+[05.26.24|23:44:33] Training epoch: 50
+[05.26.24|23:44:33] Done.
+[05.26.24|23:44:33] Training epoch: 51
+[05.26.24|23:44:34] Done.
+[05.26.24|23:44:34] Training epoch: 52
+[05.26.24|23:44:34] Done.
+[05.26.24|23:44:34] Training epoch: 53
+[05.26.24|23:44:35] Done.
+[05.26.24|23:44:35] Training epoch: 54
+[05.26.24|23:44:35] Done.
+[05.26.24|23:44:35] Eval epoch: 54
+[05.26.24|23:44:36] Done.
+[05.26.24|23:44:36] Training epoch: 55
+[05.26.24|23:44:36] Done.
+[05.26.24|23:44:36] Training epoch: 56
+[05.26.24|23:44:37] Done.
+[05.26.24|23:44:37] Training epoch: 57
+[05.26.24|23:44:37] Done.
+[05.26.24|23:44:37] Training epoch: 58
+[05.26.24|23:44:38] Done.
+[05.26.24|23:44:38] Training epoch: 59
+[05.26.24|23:44:38] Done.
+[05.26.24|23:44:38] The model has been saved as ./work_dir/log/epoch60_model.pt.
+[05.26.24|23:44:38] Eval epoch: 59
+[05.26.24|23:44:39] Done.
+[05.26.24|23:44:39] Training epoch: 60
+[05.26.24|23:44:39] Done.
+[05.26.24|23:44:39] Training epoch: 61
+[05.26.24|23:44:40] Done.
+[05.26.24|23:44:40] Training epoch: 62
+[05.26.24|23:44:40] Done.
+[05.26.24|23:44:40] Training epoch: 63
+[05.26.24|23:44:41] Done.
+[05.26.24|23:44:41] Training epoch: 64
+[05.26.24|23:44:41] Done.
+[05.26.24|23:44:41] Eval epoch: 64
+[05.26.24|23:44:41] Done.
+[05.26.24|23:44:41] Training epoch: 65
+[05.26.24|23:44:42] Done.
+[05.26.24|23:44:42] Training epoch: 66
+[05.26.24|23:44:42] Done.
+[05.26.24|23:44:42] Training epoch: 67
+[05.26.24|23:44:43] Done.
+[05.26.24|23:44:43] Training epoch: 68
+[05.26.24|23:44:44] Done.
+[05.26.24|23:44:44] Training epoch: 69
+[05.26.24|23:44:44] Done.
+[05.26.24|23:44:44] The model has been saved as ./work_dir/log/epoch70_model.pt.
+[05.26.24|23:44:44] Eval epoch: 69
+[05.26.24|23:44:44] Done.
+[05.26.24|23:44:44] Training epoch: 70
+[05.26.24|23:44:45] Done.
+[05.26.24|23:44:45] Training epoch: 71
+[05.26.24|23:44:45] Done.
+[05.26.24|23:44:45] Training epoch: 72
+[05.26.24|23:44:46] Done.
+[05.26.24|23:44:46] Training epoch: 73
+[05.26.24|23:44:46] Done.
+[05.26.24|23:44:46] Training epoch: 74
+[05.26.24|23:44:47] Done.
+[05.26.24|23:44:47] Eval epoch: 74
+[05.26.24|23:44:47] Done.
+[05.26.24|23:44:47] Training epoch: 75
+[05.26.24|23:44:48] Done.
+[05.26.24|23:44:48] Training epoch: 76
+[05.26.24|23:44:48] Done.
+[05.26.24|23:44:48] Training epoch: 77
+[05.26.24|23:44:49] Done.
+[05.26.24|23:44:49] Training epoch: 78
+[05.26.24|23:44:49] Done.
+[05.26.24|23:44:49] Training epoch: 79
+[05.26.24|23:44:50] Done.
+[05.26.24|23:44:50] The model has been saved as ./work_dir/log/epoch80_model.pt.
+[05.26.24|23:44:50] Eval epoch: 79
+[05.26.24|23:44:50] Done.
+[05.26.24|23:54:10] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:54:10] Training epoch: 0
+[05.26.24|23:54:10] Done.
+[05.26.24|23:54:10] Training epoch: 1
+[05.26.24|23:54:11] Done.
+[05.26.24|23:54:11] Training epoch: 2
+[05.26.24|23:54:11] Done.
+[05.26.24|23:54:11] Training epoch: 3
+[05.26.24|23:54:12] Done.
+[05.26.24|23:54:12] Training epoch: 4
+[05.26.24|23:54:12] Done.
+[05.26.24|23:54:12] Eval epoch: 4
+[05.26.24|23:54:12] Done.
+[05.26.24|23:54:12] Training epoch: 5
+[05.26.24|23:54:13] Done.
+[05.26.24|23:54:13] Training epoch: 6
+[05.26.24|23:54:13] Done.
+[05.26.24|23:54:13] Training epoch: 7
+[05.26.24|23:54:13] Done.
+[05.26.24|23:54:13] Training epoch: 8
+[05.26.24|23:54:14] Done.
+[05.26.24|23:54:14] Training epoch: 9
+[05.26.24|23:54:14] Done.
+[05.26.24|23:54:14] The model has been saved as ./work_dir/log/epoch10_model.pt.
+[05.26.24|23:54:14] Eval epoch: 9
+[05.26.24|23:54:14] Done.
+[05.26.24|23:54:14] Training epoch: 10
+[05.26.24|23:54:15] Done.
+[05.26.24|23:54:15] Training epoch: 11
+[05.26.24|23:54:15] Done.
+[05.26.24|23:54:15] Training epoch: 12
+[05.26.24|23:54:15] Done.
+[05.26.24|23:54:15] Training epoch: 13
+[05.26.24|23:54:16] Done.
+[05.26.24|23:54:16] Training epoch: 14
+[05.26.24|23:54:16] Done.
+[05.26.24|23:54:16] Eval epoch: 14
+[05.26.24|23:54:16] Done.
+[05.26.24|23:54:16] Training epoch: 15
+[05.26.24|23:54:17] Done.
+[05.26.24|23:54:17] Training epoch: 16
+[05.26.24|23:54:17] Done.
+[05.26.24|23:54:17] Training epoch: 17
+[05.26.24|23:54:18] Done.
+[05.26.24|23:54:18] Training epoch: 18
+[05.26.24|23:54:18] Done.
+[05.26.24|23:54:18] Training epoch: 19
+[05.26.24|23:54:18] Done.
+[05.26.24|23:54:18] The model has been saved as ./work_dir/log/epoch20_model.pt.
+[05.26.24|23:54:18] Eval epoch: 19
+[05.26.24|23:54:19] Done.
+[05.26.24|23:54:19] Training epoch: 20
+[05.26.24|23:54:19] Done.
+[05.26.24|23:54:19] Training epoch: 21
+[05.26.24|23:54:19] Done.
+[05.26.24|23:54:19] Training epoch: 22
+[05.26.24|23:54:20] Done.
+[05.26.24|23:54:20] Training epoch: 23
+[05.26.24|23:54:20] Done.
+[05.26.24|23:54:20] Training epoch: 24
+[05.26.24|23:54:20] Done.
+[05.26.24|23:54:20] Eval epoch: 24
+[05.26.24|23:54:21] Done.
+[05.26.24|23:54:21] Training epoch: 25
+[05.26.24|23:54:21] Done.
+[05.26.24|23:54:21] Training epoch: 26
+[05.26.24|23:54:21] Done.
+[05.26.24|23:54:21] Training epoch: 27
+[05.26.24|23:54:22] Done.
+[05.26.24|23:54:22] Training epoch: 28
+[05.26.24|23:54:22] Done.
+[05.26.24|23:54:22] Training epoch: 29
+[05.26.24|23:54:23] Done.
+[05.26.24|23:54:23] The model has been saved as ./work_dir/log/epoch30_model.pt.
+[05.26.24|23:54:23] Eval epoch: 29
+[05.26.24|23:54:23] Done.
+[05.26.24|23:54:23] Training epoch: 30
+[05.26.24|23:54:23] Done.
+[05.26.24|23:54:23] Training epoch: 31
+[05.26.24|23:54:24] Done.
+[05.26.24|23:54:24] Training epoch: 32
+[05.26.24|23:54:24] Done.
+[05.26.24|23:54:24] Training epoch: 33
+[05.26.24|23:54:24] Done.
+[05.26.24|23:54:24] Training epoch: 34
+[05.26.24|23:54:25] Done.
+[05.26.24|23:54:25] Eval epoch: 34
+[05.26.24|23:54:25] Done.
+[05.26.24|23:54:25] Training epoch: 35
+[05.26.24|23:54:25] Done.
+[05.26.24|23:54:25] Training epoch: 36
+[05.26.24|23:54:26] Done.
+[05.26.24|23:54:26] Training epoch: 37
+[05.26.24|23:54:26] Done.
+[05.26.24|23:54:26] Training epoch: 38
+[05.26.24|23:54:26] Done.
+[05.26.24|23:54:26] Training epoch: 39
+[05.26.24|23:54:27] Done.
+[05.26.24|23:54:27] The model has been saved as ./work_dir/log/epoch40_model.pt.
+[05.26.24|23:54:27] Eval epoch: 39
+[05.26.24|23:54:27] Done.
+[05.26.24|23:54:27] Training epoch: 40
+[05.26.24|23:54:28] Done.
+[05.26.24|23:54:28] Training epoch: 41
+[05.26.24|23:54:28] Done.
+[05.26.24|23:54:28] Training epoch: 42
+[05.26.24|23:54:28] Done.
+[05.26.24|23:54:28] Training epoch: 43
+[05.26.24|23:54:29] Done.
+[05.26.24|23:54:29] Training epoch: 44
+[05.26.24|23:54:29] Done.
+[05.26.24|23:54:29] Eval epoch: 44
+[05.26.24|23:54:29] Done.
+[05.26.24|23:54:29] Training epoch: 45
+[05.26.24|23:54:30] Done.
+[05.26.24|23:54:30] Training epoch: 46
+[05.26.24|23:54:30] Done.
+[05.26.24|23:54:30] Training epoch: 47
+[05.26.24|23:54:30] Done.
+[05.26.24|23:54:30] Training epoch: 48
+[05.26.24|23:54:31] Done.
+[05.26.24|23:54:31] Training epoch: 49
+[05.26.24|23:54:31] Done.
+[05.26.24|23:54:31] The model has been saved as ./work_dir/log/epoch50_model.pt.
+[05.26.24|23:54:31] Eval epoch: 49
+[05.26.24|23:54:31] Done.
+[05.26.24|23:54:31] Training epoch: 50
+[05.26.24|23:54:32] Done.
+[05.26.24|23:54:32] Training epoch: 51
+[05.26.24|23:54:32] Done.
+[05.26.24|23:54:32] Training epoch: 52
+[05.26.24|23:54:33] Done.
+[05.26.24|23:54:33] Training epoch: 53
+[05.26.24|23:54:33] Done.
+[05.26.24|23:54:33] Training epoch: 54
+[05.26.24|23:54:33] Done.
+[05.26.24|23:54:33] Eval epoch: 54
+[05.26.24|23:54:34] Done.
+[05.26.24|23:54:34] Training epoch: 55
+[05.26.24|23:54:34] Done.
+[05.26.24|23:54:34] Training epoch: 56
+[05.26.24|23:54:34] Done.
+[05.26.24|23:54:34] Training epoch: 57
+[05.26.24|23:54:35] Done.
+[05.26.24|23:54:35] Training epoch: 58
+[05.26.24|23:54:35] Done.
+[05.26.24|23:54:35] Training epoch: 59
+[05.26.24|23:54:35] Done.
+[05.26.24|23:54:35] The model has been saved as ./work_dir/log/epoch60_model.pt.
+[05.26.24|23:54:35] Eval epoch: 59
+[05.26.24|23:54:36] Done.
+[05.26.24|23:54:36] Training epoch: 60
+[05.26.24|23:54:36] Done.
+[05.26.24|23:54:36] Training epoch: 61
+[05.26.24|23:54:36] Done.
+[05.26.24|23:54:36] Training epoch: 62
+[05.26.24|23:54:37] Done.
+[05.26.24|23:54:37] Training epoch: 63
+[05.26.24|23:54:37] Done.
+[05.26.24|23:54:37] Training epoch: 64
+[05.26.24|23:54:38] Done.
+[05.26.24|23:54:38] Eval epoch: 64
+[05.26.24|23:54:38] Done.
+[05.26.24|23:54:38] Training epoch: 65
+[05.26.24|23:54:38] Done.
+[05.26.24|23:54:38] Training epoch: 66
+[05.26.24|23:54:39] Done.
+[05.26.24|23:54:39] Training epoch: 67
+[05.26.24|23:54:39] Done.
+[05.26.24|23:54:39] Training epoch: 68
+[05.26.24|23:54:39] Done.
+[05.26.24|23:54:39] Training epoch: 69
+[05.26.24|23:54:40] Done.
+[05.26.24|23:54:40] The model has been saved as ./work_dir/log/epoch70_model.pt.
+[05.26.24|23:54:40] Eval epoch: 69
+[05.26.24|23:54:40] Done.
+[05.26.24|23:54:40] Training epoch: 70
+[05.26.24|23:54:40] Done.
+[05.26.24|23:54:40] Training epoch: 71
+[05.26.24|23:54:41] Done.
+[05.26.24|23:54:41] Training epoch: 72
+[05.26.24|23:54:41] Done.
+[05.26.24|23:54:41] Training epoch: 73
+[05.26.24|23:54:41] Done.
+[05.26.24|23:54:41] Training epoch: 74
+[05.26.24|23:54:42] Done.
+[05.26.24|23:54:42] Eval epoch: 74
+[05.26.24|23:54:42] Done.
+[05.26.24|23:54:42] Training epoch: 75
+[05.26.24|23:54:42] Done.
+[05.26.24|23:54:42] Training epoch: 76
+[05.26.24|23:54:43] Done.
+[05.26.24|23:54:43] Training epoch: 77
+[05.26.24|23:54:43] Done.
+[05.26.24|23:54:43] Training epoch: 78
+[05.26.24|23:54:44] Done.
+[05.26.24|23:54:44] Training epoch: 79
+[05.26.24|23:54:44] Done.
+[05.26.24|23:54:44] The model has been saved as ./work_dir/log/epoch80_model.pt.
+[05.26.24|23:54:44] Eval epoch: 79
+[05.26.24|23:54:44] Done.
+[05.26.24|23:56:44] Parameters:
+{'work_dir': './work_dir/log', 'config': '/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {}, 'test_feeder_args': {}, 'batch_size': 2, 'test_batch_size': 64, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 4, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'weight_decay': 0.0001, 'base_lr': 0.1, 'step': [10, 50]}
+
+[05.26.24|23:56:44] Training epoch: 0
+[05.26.24|23:56:45] Done.
+[05.26.24|23:56:45] Training epoch: 1
+[05.26.24|23:56:45] Done.
+[05.26.24|23:56:45] Training epoch: 2
+[05.26.24|23:56:45] Done.
+[05.26.24|23:56:45] Training epoch: 3
+[05.26.24|23:56:46] Done.
+[05.26.24|23:56:46] Training epoch: 4
+[05.26.24|23:56:46] Done.
+[05.26.24|23:56:46] Eval epoch: 4
+[05.26.24|23:56:46] Done.
+[05.26.24|23:56:46] Training epoch: 5
+[05.26.24|23:56:47] Done.
+[05.26.24|23:56:47] Training epoch: 6
+[05.26.24|23:56:47] Done.
+[05.26.24|23:56:47] Training epoch: 7
+[05.26.24|23:56:47] Done.
+[05.26.24|23:56:47] Training epoch: 8
+[05.26.24|23:56:48] Done.
+[05.26.24|23:56:48] Training epoch: 9
+[05.26.24|23:56:48] Done.
+[05.26.24|23:56:48] The model has been saved as ./work_dir/log/epoch10_model.pt.
+[05.26.24|23:56:48] Eval epoch: 9
+[05.26.24|23:56:48] Done.
+[05.26.24|23:56:48] Training epoch: 10
+[05.26.24|23:56:49] Done.
+[05.26.24|23:56:49] Training epoch: 11
+[05.26.24|23:56:49] Done.
+[05.26.24|23:56:49] Training epoch: 12
+[05.26.24|23:56:50] Done.
+[05.26.24|23:56:50] Training epoch: 13
+[05.26.24|23:56:50] Done.
+[05.26.24|23:56:50] Training epoch: 14
+[05.26.24|23:56:50] Done.
+[05.26.24|23:56:50] Eval epoch: 14
+[05.26.24|23:56:51] Done.
+[05.26.24|23:56:51] Training epoch: 15
+[05.26.24|23:56:51] Done.
+[05.26.24|23:56:51] Training epoch: 16
+[05.26.24|23:56:51] Done.
+[05.26.24|23:56:51] Training epoch: 17
+[05.26.24|23:56:52] Done.
+[05.26.24|23:56:52] Training epoch: 18
+[05.26.24|23:56:52] Done.
+[05.26.24|23:56:52] Training epoch: 19
+[05.26.24|23:56:52] Done.
+[05.26.24|23:56:52] The model has been saved as ./work_dir/log/epoch20_model.pt.
+[05.26.24|23:56:52] Eval epoch: 19
+[05.26.24|23:56:53] Done.
+[05.26.24|23:56:53] Training epoch: 20
+[05.26.24|23:56:53] Done.
+[05.26.24|23:56:53] Training epoch: 21
+[05.26.24|23:56:54] Done.
+[05.26.24|23:56:54] Training epoch: 22
+[05.26.24|23:56:54] Done.
+[05.26.24|23:56:54] Training epoch: 23
+[05.26.24|23:56:54] Done.
+[05.26.24|23:56:54] Training epoch: 24
+[05.26.24|23:56:55] Done.
+[05.26.24|23:56:55] Eval epoch: 24
+[05.26.24|23:56:55] Done.
+[05.26.24|23:56:55] Training epoch: 25
+[05.26.24|23:56:55] Done.
+[05.26.24|23:56:55] Training epoch: 26
+[05.26.24|23:56:56] Done.
+[05.26.24|23:56:56] Training epoch: 27
+[05.26.24|23:56:56] Done.
+[05.26.24|23:56:56] Training epoch: 28
+[05.26.24|23:56:56] Done.
+[05.26.24|23:56:56] Training epoch: 29
+[05.26.24|23:56:57] Done.
+[05.26.24|23:56:57] The model has been saved as ./work_dir/log/epoch30_model.pt.
+[05.26.24|23:56:57] Eval epoch: 29
+[05.26.24|23:56:57] Done.
+[05.26.24|23:56:57] Training epoch: 30
+[05.26.24|23:56:57] Done.
+[05.26.24|23:56:57] Training epoch: 31
+[05.26.24|23:56:58] Done.
+[05.26.24|23:56:58] Training epoch: 32
+[05.26.24|23:56:58] Done.
+[05.26.24|23:56:58] Training epoch: 33
+[05.26.24|23:56:59] Done.
+[05.26.24|23:56:59] Training epoch: 34
+[05.26.24|23:56:59] Done.
+[05.26.24|23:56:59] Eval epoch: 34
+[05.26.24|23:56:59] Done.
+[05.26.24|23:56:59] Training epoch: 35
+[05.26.24|23:57:00] Done.
+[05.26.24|23:57:00] Training epoch: 36
+[05.26.24|23:57:00] Done.
+[05.26.24|23:57:00] Training epoch: 37
+[05.26.24|23:57:00] Done.
+[05.26.24|23:57:00] Training epoch: 38
+[05.26.24|23:57:01] Done.
+[05.26.24|23:57:01] Training epoch: 39
+[05.26.24|23:57:01] Done.
+[05.26.24|23:57:01] The model has been saved as ./work_dir/log/epoch40_model.pt.
+[05.26.24|23:57:01] Eval epoch: 39
+[05.26.24|23:57:01] Done.
+[05.26.24|23:57:01] Training epoch: 40
+[05.26.24|23:57:02] Done.
+[05.26.24|23:57:02] Training epoch: 41
+[05.26.24|23:57:02] Done.
+[05.26.24|23:57:02] Training epoch: 42
+[05.26.24|23:57:02] Done.
+[05.26.24|23:57:02] Training epoch: 43
+[05.26.24|23:57:03] Done.
+[05.26.24|23:57:03] Training epoch: 44
+[05.26.24|23:57:03] Done.
+[05.26.24|23:57:03] Eval epoch: 44
+[05.26.24|23:57:03] Done.
+[05.26.24|23:57:03] Training epoch: 45
+[05.26.24|23:57:04] Done.
+[05.26.24|23:57:04] Training epoch: 46
+[05.26.24|23:57:04] Done.
+[05.26.24|23:57:04] Training epoch: 47
+[05.26.24|23:57:05] Done.
+[05.26.24|23:57:05] Training epoch: 48
+[05.26.24|23:57:05] Done.
+[05.26.24|23:57:05] Training epoch: 49
+[05.26.24|23:57:05] Done.
+[05.26.24|23:57:05] The model has been saved as ./work_dir/log/epoch50_model.pt.
+[05.26.24|23:57:05] Eval epoch: 49
+[05.26.24|23:57:06] Done.
+[05.26.24|23:57:06] Training epoch: 50
+[05.26.24|23:57:06] Done.
+[05.26.24|23:57:06] Training epoch: 51
+[05.26.24|23:57:06] Done.
+[05.26.24|23:57:06] Training epoch: 52
+[05.26.24|23:57:07] Done.
+[05.26.24|23:57:07] Training epoch: 53
+[05.26.24|23:57:07] Done.
+[05.26.24|23:57:07] Training epoch: 54
+[05.26.24|23:57:08] Done.
+[05.26.24|23:57:08] Eval epoch: 54
+[05.26.24|23:57:08] Done.
+[05.26.24|23:57:08] Training epoch: 55
+[05.26.24|23:57:08] Done.
+[05.26.24|23:57:08] Training epoch: 56
+[05.26.24|23:57:08] Done.
+[05.26.24|23:57:08] Training epoch: 57
+[05.26.24|23:57:09] Done.
+[05.26.24|23:57:09] Training epoch: 58
+[05.26.24|23:57:09] Done.
+[05.26.24|23:57:09] Training epoch: 59
+[05.26.24|23:57:10] Done.
+[05.26.24|23:57:10] The model has been saved as ./work_dir/log/epoch60_model.pt.
+[05.26.24|23:57:10] Eval epoch: 59
+[05.26.24|23:57:10] Done.
+[05.26.24|23:57:10] Training epoch: 60
+[05.26.24|23:57:10] Done.
+[05.26.24|23:57:10] Training epoch: 61
+[05.26.24|23:57:11] Done.
+[05.26.24|23:57:11] Training epoch: 62
+[05.26.24|23:57:11] Done.
+[05.26.24|23:57:11] Training epoch: 63
+[05.26.24|23:57:11] Done.
+[05.26.24|23:57:11] Training epoch: 64
+[05.26.24|23:57:12] Done.
+[05.26.24|23:57:12] Eval epoch: 64
+[05.26.24|23:57:12] Done.
+[05.26.24|23:57:12] Training epoch: 65
+[05.26.24|23:57:12] Done.
+[05.26.24|23:57:12] Training epoch: 66
+[05.26.24|23:57:13] Done.
+[05.26.24|23:57:13] Training epoch: 67
+[05.26.24|23:57:13] Done.
+[05.26.24|23:57:13] Training epoch: 68
+[05.26.24|23:57:13] Done.
+[05.26.24|23:57:13] Training epoch: 69
+[05.26.24|23:57:14] Done.
+[05.26.24|23:57:14] The model has been saved as ./work_dir/log/epoch70_model.pt.
+[05.26.24|23:57:14] Eval epoch: 69
+[05.26.24|23:57:14] Done.
+[05.26.24|23:57:14] Training epoch: 70
+[05.26.24|23:57:15] Done.
+[05.26.24|23:57:15] Training epoch: 71
+[05.26.24|23:57:15] Done.
+[05.26.24|23:57:15] Training epoch: 72
+[05.26.24|23:57:15] Done.
+[05.26.24|23:57:15] Training epoch: 73
+[05.26.24|23:57:16] Done.
+[05.26.24|23:57:16] Training epoch: 74
+[05.26.24|23:57:16] Done.
+[05.26.24|23:57:16] Eval epoch: 74
+[05.26.24|23:57:16] Done.
+[05.26.24|23:57:16] Training epoch: 75
+[05.26.24|23:57:17] Done.
+[05.26.24|23:57:17] Training epoch: 76
+[05.26.24|23:57:17] Done.
+[05.26.24|23:57:17] Training epoch: 77
+[05.26.24|23:57:17] Done.
+[05.26.24|23:57:17] Training epoch: 78
+[05.26.24|23:57:18] Done.
+[05.26.24|23:57:18] Training epoch: 79
+[05.26.24|23:57:18] Done.
+[05.26.24|23:57:18] The model has been saved as ./work_dir/log/epoch80_model.pt.
+[05.26.24|23:57:18] Eval epoch: 79
+[05.26.24|23:57:18] Done.

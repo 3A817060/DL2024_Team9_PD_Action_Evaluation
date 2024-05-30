@@ -11,7 +11,8 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 from torchvision import datasets, transforms
-
+from feeder.load_data import process_json_files, compare_strings
+import pandas as pd
 # visualization
 import time
 
@@ -24,63 +25,47 @@ class Feeder(torch.utils.data.Dataset):
         data_path: the path to '.npy' data, the shape of data should be (N, C, T, V, M)
         label_path: the path to label
         random_choose: If true, randomly choose a portion of the input sequence
-        random_move: If true, perform randomly but continuously changed transformation to input sequence
+        random_shift: If true, randomly pad zeros at the begining or end of sequence
         window_size: The length of the output sequence
         normalization: If true, normalize input sequence
         debug: If true, only use the first 100 samples
     """
 
-    def __init__(self,
-                 data_path,
-                 label_path,
-                 random_choose=False,
-                 random_move=False,
-                 window_size=-1,
-                 debug=False,
-                 mmap=True):
-        self.debug = debug
-        self.data_path = data_path
-        self.label_path = label_path
-        self.random_choose = random_choose
-        self.random_move = random_move
-        self.window_size = window_size
+    def __init__(self, phase):
+                 
+        csv_path = "/media/dsp520/Grasp_2T/parkinson/GT.csv"
+        json_path = "/media/dsp520/Grasp_2T/parkinson/LA/"
 
-        self.load_data(mmap)
+        csv = pd.read_csv (csv_path)
+        # patients = np.zeros( (42, 700, 21) ) # 21 -> (3,7)
+        patients = np.zeros( (42, 700, 25, 3) )
+        level = [] # (42,)
 
-    def load_data(self, mmap):
-        # data: N C V T M
+        patients, GT = process_json_files (json_path, patients)
+        # patients = np.transpose(patients, (0, 3, 2, 1)) # shape= (42, 3, 25, 700)
+        patients = np.transpose(patients, (0, 3, 1, 2)) # shape= (42, 3, 700, 25)
+        patients = np.expand_dims(patients, axis=4) # shape= (42, 3, 700, 25, 1)
+        for i in range(GT.shape[0]):
+            for j in range(csv.shape[0]):
+                if compare_strings( GT[i], csv.iloc[j, 0] ):
+                    level = np.append( level, csv.iloc[j, 1] )
+                    break
+        if phase=='train':
+            self.label = level[:35]
+            self.data  = patients[:35]
+        elif phase=='test':
+            self.label = level[35:]
+            self.data = patients[35:]
 
-        # load label
-        with open(self.label_path, 'rb') as f:
-            self.sample_name, self.label = pickle.load(f)
-
-        # load data
-        if mmap:
-            self.data = np.load(self.data_path, mmap_mode='r')
-        else:
-            self.data = np.load(self.data_path)
-            
-        if self.debug:
-            self.label = self.label[0:100]
-            self.data = self.data[0:100]
-            self.sample_name = self.sample_name[0:100]
-
-        self.N, self.C, self.T, self.V, self.M = self.data.shape
 
     def __len__(self):
         return len(self.label)
+
+    def __iter__(self):
+        return self
 
     def __getitem__(self, index):
         # get data
         data_numpy = np.array(self.data[index])
         label = self.label[index]
-        
-        # processing
-        if self.random_choose:
-            data_numpy = tools.random_choose(data_numpy, self.window_size)
-        elif self.window_size > 0:
-            data_numpy = tools.auto_pading(data_numpy, self.window_size)
-        if self.random_move:
-            data_numpy = tools.random_move(data_numpy)
-
         return data_numpy, label
