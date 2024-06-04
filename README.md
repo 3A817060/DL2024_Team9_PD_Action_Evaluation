@@ -19,8 +19,8 @@ In this step, we need to prepare the data for further processing and analysis.
 ```
 We will organize our data using the following structure:
 
-- [./dataset/GT_Level]: Location to store the PD patient's Leg Agility Ground Truth data.
-- [./dataset/Skeleton]: Location for the skeleton coordinates of each video.
+- [./dataset/GT_Level.xlxs]: the PD patient's Leg Agility Ground Truth data.
+- [./dataset/LA]: Location for the skeleton coordinates of each video.
  ```   
  ### Training PD_STGCN
  To train a new model or reproduce experiment results, run 
