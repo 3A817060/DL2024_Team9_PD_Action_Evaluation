@@ -12,7 +12,9 @@ import torch.optim as optim
 
 
 # torchlight
-import torchlight.torchlight as torchlight
+import torchlight as torchlight
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"   # avoid env conflict
 class Processor():
     """
         Base Processor
@@ -251,7 +253,7 @@ class Processor():
         parser = argparse.ArgumentParser( add_help=add_help, description='Base Processor')
 
         parser.add_argument('-w', '--work_dir', default='./work_dir/tmp', help='the work folder for storing results')
-        parser.add_argument('-c', '--config', default="/media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml", help='path to the configuration file')
+        parser.add_argument('-c', '--config', default="./config/cfg.yaml", help='path to the configuration file')
 
         # processor
         parser.add_argument('--phase', default='train', help='must be train or test')

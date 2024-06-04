@@ -33,10 +33,12 @@ class Feeder(torch.utils.data.Dataset):
 
     def __init__(self, phase):
                  
-        csv_path = "/media/dsp520/Grasp_2T/parkinson/GT.csv"
-        json_path = "/media/dsp520/Grasp_2T/parkinson/LA/"
+        csv_path = "dataset\GT_Level.xlsx"
+        json_path = "dataset\LA"
 
-        csv = pd.read_csv (csv_path)
+        csv = pd.read_excel(csv_path)
+        # csv = pd.read_csv(csv_path)
+        
         # patients = np.zeros( (42, 700, 21) ) # 21 -> (3,7)
         patients = np.zeros( (42, 700, 25, 3) )
         level = [] # (42,)
