@@ -38,26 +38,47 @@ class Feeder(torch.utils.data.Dataset):
 
         csv = pd.read_excel(csv_path)
         # csv = pd.read_csv(csv_path)
-        
+
         # patients = np.zeros( (42, 700, 21) ) # 21 -> (3,7)
         patients = np.zeros( (42, 700, 25, 3) )
-        level = [] # (42,)
+        level = [] # (44,)
 
         patients, GT = process_json_files (json_path, patients)
-        # patients = np.transpose(patients, (0, 3, 2, 1)) # shape= (42, 3, 25, 700)
-        patients = np.transpose(patients, (0, 3, 1, 2)) # shape= (42, 3, 700, 25)
-        patients = np.expand_dims(patients, axis=4) # shape= (42, 3, 700, 25, 1)
+        patients = np.transpose(patients, (0, 3, 1, 2)) # shape= (44, 3, 700, 25)
+        patients = np.expand_dims(patients, axis=4) # shape= (44, 3, 700, 25, 1)
         for i in range(GT.shape[0]):
             for j in range(csv.shape[0]):
                 if compare_strings( GT[i], csv.iloc[j, 0] ):
                     level = np.append( level, csv.iloc[j, 1] )
                     break
+
+        df = pd.DataFrame({'index': np.arange(len(level)), 'level': level})
+        train_indices=[]
+        test_indices=[]
+
+        for lvl, group in df.groupby('level'):
+            n_samples = len(group)
+            n_train = int(n_samples * 0.8)
+            shuffled_indices = group.sample(frac=1).index.tolist()
+            train_indices.extend(shuffled_indices[:n_train])
+            test_indices.extend(shuffled_indices[n_train:])
+        train_indices = np.array(train_indices)
+        test_indices = np.array(test_indices)
+
+        patients_train = patients[train_indices]
+        patients_test = patients[test_indices]
+        level_train = level[train_indices]
+        level_test = level[test_indices]
+
+
         if phase=='train':
-            self.label = level[:35]
-            self.data  = patients[:35]
+            print(len(level))
+            self.label = level_train
+            self.data  = patients_train
+            print(level_train)
         elif phase=='test':
-            self.label = level[35:]
-            self.data = patients[35:]
+            self.label = level_test
+            self.data = patients_test
 
 
     def __len__(self):
