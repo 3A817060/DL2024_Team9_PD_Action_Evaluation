@@ -43,7 +43,10 @@ The dataset includes a total of 44 complete skeleton joint coordinates extracted
 ## Demo
 
 ## Two stream ST_GCN
-
+```
 This project code is based on the work of [yysijie](https://github.com/yysijie). You can find the original repository [here](https://github.com/yysijie/st-gcn).
+```
+```
 This project framework is based on [littlepure2333](https://github.com/littlepure2333). You can also find the original repository [here](https://github.com/littlepure2333/2s_st-gcn.git).
+```
 
