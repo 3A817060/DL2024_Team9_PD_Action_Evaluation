@@ -2,7 +2,7 @@
 
 base_lr: 0.1
 batch_size: 2
-config: /media/dsp520/Grasp_2T/parkinson/st-gcn/config/cfg.yaml
+config: ./config/cfg.yaml
 debug: false
 device:
 - 0
@@ -10,7 +10,7 @@ eval_interval: 5
 feeder: feeder.feeder.Feeder
 ignore_weights: []
 log_interval: 100
-model: net.st_gcn.Model
+model: net.st_gcn_twostream.Model
 model_args:
     dropout: 0.5
     edge_importance_weighting: true
