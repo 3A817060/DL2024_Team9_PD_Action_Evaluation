@@ -28,7 +28,7 @@ We will organize our data using the following structure:
 python processor1.py
 ```
 The training results, including model weights, configurations and loggiing files, will be saved under the `./work_dir` by default.
-You can modify the training parameters such as `work_dir`, `batch_size`, `step`, `base_lr` and `device` in the configuration files. The order of priority is: config file > cfg.yaml.
+You can modify the training parameters such as `work_dir`, `batch_size`, `step`, `base_lr` and `device` in the configuration files. The order of priority is: `"./config/cfg.yaml"`.
 
 ## Dataset Description
 
