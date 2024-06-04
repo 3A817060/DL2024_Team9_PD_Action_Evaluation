@@ -5,7 +5,7 @@ feeder: feeder.feeder.Feeder
 train_feeder_args: {}
 
 # model
-model: net.st_gcn_two.Model
+model: net.st_gcn_twostream.Model
 model_args:
   in_channels: 3
   num_class: 4
