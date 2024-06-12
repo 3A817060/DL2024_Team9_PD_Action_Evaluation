@@ -15,6 +15,21 @@ import torch.optim as optim
 import torchlight as torchlight
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"   # avoid env conflict
+
+import torch.nn.functional as F
+class FocalLoss(nn.Module):
+    def __init__(self, alpha=1, gamma=2):
+        super(FocalLoss, self).__init__()
+        self.alpha = alpha
+        self.gamma = gamma
+
+    def forward(self, inputs, targets):
+        BCE_loss = F.cross_entropy(inputs, targets, reduction='none')
+        pt = torch.exp(-BCE_loss)
+        F_loss = self.alpha * (1 - pt) ** self.gamma * BCE_loss
+        return F_loss.mean()
+
+
 class Processor():
     """
         Base Processor
@@ -167,7 +182,11 @@ class Processor():
             # if batch_idx == 0 and epoch == 0:
             #     self.train_writer.add_graph(self.model, output)
 
-            loss = self.loss_CE(output, label)
+            # CE loss
+            # loss = self.loss_CE(output, label)
+            # Focal Loss
+            criterion = FocalLoss(alpha=1, gamma=2)
+            loss = criterion(output, label)
             # backward
             self.optimizer.zero_grad()
             loss.backward()
@@ -189,7 +208,7 @@ class Processor():
                 # if batch_idx == 0 and epoch == 0:
                 #     self.train_writer.add_graph(self.model, output)
                 print(f"label={label}, predicted label={predict_label}")
-                loss = self.loss_CE(output, label)
+                # loss = self.loss_CE(output, label)
                 correct = (predict_label == label).sum().item()
                 total_correct += correct
                 total_samples += label.size(0)

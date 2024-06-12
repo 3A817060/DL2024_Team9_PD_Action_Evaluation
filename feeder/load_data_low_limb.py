@@ -37,7 +37,14 @@ def OnePatient (path):
                 data = json.load(json_file)
                 # 在這裡可以對讀取的 JSON 資料進行處理
                 keypoints = np.array(data['people'][0]['pose_keypoints_2d']).reshape(-1, 3)
-                selected_keypoints = keypoints[:, :2]
+                #-- use the entire joints --#
+                # selected_keypoints = keypoints[:, :2]
+
+                #-- use the low limbs joints from 8 to 15 --#
+                zeroed_keypoints = np.zeros_like(keypoints)
+                zeroed_keypoints[8:15, :2] = keypoints[8:15, :2]  # keep the index range of 8 to 14
+
+                selected_keypoints = zeroed_keypoints[:, :2]
                 patient = np.append(patient, [selected_keypoints], axis=0)
                 
             except json.JSONDecodeError as e:
@@ -55,12 +62,11 @@ def process_json_files(root_dir, patients):
     """
     file_name = []
     # 遍歷根目錄下的所有資料夾
-    # patients.shape=(42, 700, 25, 2)
+    patients.shape=(42, 700, 25, 2)
     for folder_name in os.listdir(root_dir):
         # folder_path = os.path.basename(folder_name)
         folder_path = os.path.join(root_dir, folder_name)  # 確保 folder_path 包含完整的路徑
         file_name = np.append (file_name, folder_path)
-        
         if os.path.isdir(folder_path):
             # 在每個資料夾中遍歷所有JSON檔案
             for idx, json_file in enumerate(os.listdir(folder_path)[:700], start=0):
@@ -68,8 +74,23 @@ def process_json_files(root_dir, patients):
                     json_file_path = os.path.join(folder_path, json_file)
                     patient = OnePatient(json_file_path)
                     patients[:, idx, :, :] = patient
-        
-        # print(patients[0][0])
+    # debug
+    # log_file_path = os.path.join("./dataset/", 'patient_log.txt')
+    # with open(log_file_path, 'w') as log_file:
+    #     for folder_name in os.listdir(root_dir):
+    #         # folder_path = os.path.basename(folder_name)
+    #         folder_path = os.path.join(root_dir, folder_name)  # 確保 folder_path 包含完整的路徑
+    #         file_name = np.append (file_name, folder_path)
+    #         if os.path.isdir(folder_path):
+    #             # 在每個資料夾中遍歷所有JSON檔案
+    #             for idx, json_file in enumerate(os.listdir(folder_path)[:700], start=0):
+    #                 if json_file.endswith('.json'):
+    #                     json_file_path = os.path.join(folder_path, json_file)
+    #                     patient = OnePatient(json_file_path)
+    #                     if patient is not None:
+    #                         log_file.write(f'Processed file: {json_file_path}\n')
+    #                         log_file.write(f'Patient data:\n{patient}\n\n')
+    #                     patients[:, idx, :, :] = patient
     return patients, file_name
 
 # class DataGenerator(tf.keras.utils.Sequence):

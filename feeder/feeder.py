@@ -11,7 +11,8 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 from torchvision import datasets, transforms
-from feeder.load_data import process_json_files, compare_strings
+from feeder.load_data_low_limb import process_json_files, compare_strings # load the low limb joints of each video
+# from feeder.load_data import process_json_files, compare_strings        # load the whole joints of each video
 import pandas as pd
 # visualization
 import time
@@ -40,12 +41,13 @@ class Feeder(torch.utils.data.Dataset):
         # csv = pd.read_csv(csv_path)
 
         # patients = np.zeros( (42, 700, 21) ) # 21 -> (3,7)
-        patients = np.zeros( (42, 700, 25, 3) )
+        patients = np.zeros( (42, 700, 25, 2) )
+        # print(f"patients.shape={patients.sh}")
         level = [] # (44,)
 
         patients, GT = process_json_files (json_path, patients)
-        patients = np.transpose(patients, (0, 3, 1, 2)) # shape= (44, 3, 700, 25)
-        patients = np.expand_dims(patients, axis=4) # shape= (44, 3, 700, 25, 1)
+        patients = np.transpose(patients, (0, 3, 1, 2)) # shape= (42, 3, 700, 25)
+        patients = np.expand_dims(patients, axis=4) # shape= (42, 3, 700, 25, 1)
         for i in range(GT.shape[0]):
             for j in range(csv.shape[0]):
                 if compare_strings( GT[i], csv.iloc[j, 0] ):
