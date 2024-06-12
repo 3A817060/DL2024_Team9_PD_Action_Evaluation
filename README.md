@@ -41,7 +41,7 @@ The dataset comprises a total of 65 videos depicting individuals performing repe
 The dataset includes a total of 44 complete skeleton joint coordinates extracted from all videos. These coordinates consist of the standard OpenPose 25 joints along with additional joints for the fingers and palms.Notably, joints related to the fingers and palms will not be utilized in this project.
 
 ## Demo
-
+If you run the training, you will get the results about 50% accuracy.
 ## Two stream ST_GCN
 ### Program Code:
 This project code is based on the work of [yysijie](https://github.com/yysijie). You can find the original repository [here](https://github.com/yysijie/st-gcn).
