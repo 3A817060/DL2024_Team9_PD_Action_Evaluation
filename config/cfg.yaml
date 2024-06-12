@@ -7,7 +7,7 @@ train_feeder_args: {}
 # model
 model: net.st_gcn_twostream.Model
 model_args:
-  in_channels: 3
+  in_channels: 2
   num_class: 4
   dropout: 0.5
   edge_importance_weighting: True
